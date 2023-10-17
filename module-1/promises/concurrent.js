@@ -42,7 +42,6 @@ async function processItems(itemIds) {
 }
 
 // Example usage
-const itemIds = [1, 2, 3, 4, 5];
-processItems(itemIds).then((results) => {
+const itemIds = [1, 2, 3, 4, 5]; processItems(itemIds).then((results) => {
     console.log("Batch Processing Results:", results);
 });

@@ -7,12 +7,19 @@ How to Use the App from the Command Line
 */
 const fs = require('fs');
 const [,, action, title, content] = process.argv;
+//const validFileNamePattern = /^[a-zA-Z0-9_-]+\.txt$/;
 
 const addNote = (title, content) => {
-    fs.writeFile(`${title}.txt`, content, (err) => {
-        if (err) throw err;
-        console.log(`Note ${title} added!`);
-    });
+    
+    
+    if (!title || !content) {
+        return console.log('Title and content cannot be empty')
+    }else {
+        fs.writeFile(`${title}.txt`, content, (err) => {
+            if (err) throw err;
+            console.log(`Note ${title} added!`);
+        });
+    }
 };
 
 const readNote = (title) => {

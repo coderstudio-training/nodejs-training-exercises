@@ -10,7 +10,7 @@ function getUserFromDatabase(userId, callback) {
     }, 1000);
 }
 
-getUserFromDatabase(3, (err, user) => {
+getUserFromDatabase(1, (err, user) => {
     if (err) {
         console.error('Error fetching user:', err);
         return;

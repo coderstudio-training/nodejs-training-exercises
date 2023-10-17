@@ -1,0 +1,26 @@
+{
+    "name": "bad-bookstore-api",
+    "version": "1.0.0",
+    "description": "An intentionally flawed bookstore API to illustrate common development mistakes.",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/your_username/bad-bookstore-api.git"
+    },
+    "author": "Your Name",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/your_username/bad-bookstore-api/issues"
+    },
+    "homepage": "https://github.com/your_username/bad-bookstore-api#readme",
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^5.12.3",
+      "body-parser": "^1.19.0"
+    }
+  }
+  

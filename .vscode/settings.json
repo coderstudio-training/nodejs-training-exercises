@@ -1,0 +1,9 @@
+{
+    "editor.fontFamily": "'JetBrainsMono Nerd Font Mono'",
+    "editor.fontSize": 12,
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font Mono'",
+    "scm.inputFontSize": 12,
+    "asciidoc.preview.fontSize": 12,
+    "markdown.preview.fontSize": 12
+}
